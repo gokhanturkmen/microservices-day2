@@ -1,4 +1,4 @@
-import { createServer } from 'http'
+const { createServer } =  require('http');
 const port = 3002
 
 createServer((req, res) => {
